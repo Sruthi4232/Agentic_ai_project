@@ -30,7 +30,7 @@
     </form>
 
     <br/>
-    {% with messages = get_flashed_messages(with_categories=true) %}
+    <!-- {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
         {% for category, msg in messages %}
           <div class="alert alert-{{category}} mt-2">{{msg}}</div>
@@ -44,7 +44,7 @@
       {% if download %}
         <a href="/download" class="btn btn-success mt-3">Download Student Feedback</a>
       {% endif %}
-    {% endif %}
+    {% endif %} -->
   </div>
 </body>
 </html>
